@@ -42,6 +42,18 @@ a img:hover {
 .sing-in:hover{
   background-color: blue;
 }
+.header__link--avatar{
+  height: 27px;
+  width: 27px;
+  border-radius: 50%;
+  vertical-align: middle;
+
+}
+.header__link--avatar:hover{
+  height: 29px;
+  width: 29px;
+  background-color: #323232;
+}
 
 /* -----------------main------------------ */
 .main-container {
