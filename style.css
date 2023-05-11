@@ -23,11 +23,12 @@ a {
 }
 a img {
   vertical-align: middle;
+  opacity: 0.7;
 }
 a img:hover {
-  opacity: 0.5;
+  opacity: 1;
 }
-button {
+.sing-in {
   background-color: #4285f4;
   /* padding: 20px; */
   width: 70px;
@@ -35,7 +36,11 @@ button {
   border: none;
   border-radius: 4px;
   color: white;
-  font-weight: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.sing-in:hover{
+  background-color: blue;
 }
 
 /* -----------------main------------------ */
@@ -43,13 +48,18 @@ button {
   width: 100%;
   height: 350px;
   text-align: center;
-  margin: 200px 0 0 0;
+  margin: 150px 0 0 0;
+}
+.logo{
+  width: 272px;
+  height: 92px;
 }
 .search input {
   width: 380px;
   height: 25px;
   border:none;
   outline: none;
+  margin: auto;
 }
 .search {
   border: 1px solid grey;
@@ -66,11 +76,26 @@ button {
 }
 .mig {
   width: 30px;
-  margin-left: 8px;
+  height: 30px;
+  vertical-align: middle;
+  cursor: pointer;
+
 }
 .mic {
-  margin-right: 8px;
-  width: 20px;
+
+  width: 15px;
+  height: 20px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+button{
+  width: 70px;
+  height: 30px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
 }
 .btn-search {
   width: 117px;
@@ -90,6 +115,7 @@ p {
   font-size: 13px;
 }
 .main-language a{
+  color: blue;
   text-decoration: underline;
 }
 
